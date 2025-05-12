@@ -1,0 +1,26 @@
+.shopping-cart-page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin-top: 60px; /* Adjust based on your fixed header's height */
+  }
+  
+  .shopping-cart-content {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to top if image is tall */
+    flex-grow: 1;
+    background-color: #fff; /* Or your desired page background */
+    width: 100%;
+    max-width: 1300px; /* Match your main content width */
+    margin: 0 auto;
+  }
+  
+  .cart-screenshot-image {
+    max-width: 100%; /* Make image responsive */
+    height: auto;    /* Maintain aspect ratio */
+    display: block; /* Remove extra space below image if any */
+    object-fit: contain;
+  }
